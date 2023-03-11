@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Deck myDeck = new Deck();//Make a new deck
-        System.out.println("Higher or Lower");
         myDeck.cardCreater();
         myDeck.shuffleCards();
         ArrayList<Card> pick5Cards = new ArrayList<>();//List for the pick5Cards
